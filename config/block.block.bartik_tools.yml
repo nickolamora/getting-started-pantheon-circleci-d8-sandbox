@@ -1,6 +1,6 @@
 uuid: 9a0fae20-6695-4f94-986c-c51624c6a738
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.tools
@@ -13,7 +13,7 @@ _core:
 id: bartik_tools
 theme: bartik
 region: sidebar_first
-weight: 0
+weight: -6
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
